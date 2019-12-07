@@ -5,7 +5,7 @@
 3. The .bai files are indexing files of the .bam
     
 ## Steps I used in TEST.bam
------
+
 ### Add Read Groups and Go Through Variant Calling
 ```bash
 Picard addReadGroups (RG)
