@@ -1,5 +1,7 @@
 # Mutation calling using RNAseq
 
+Variant calling pipeline using RNAseq data, removing potential bias caused by SERCA mutation, in the paper [IRE1α and IGF signaling predict resistance to an endoplasmic reticulum stress-inducing drug in glioblastoma cells](https://www.nature.com/articles/s41598-020-65320-6)
+
 1. All .bam files processed using GRCh38 from Ensembl using STAR aligner.
 2. All .bam files are sorted using samtools sort command
 3. The .bai files are indexing files of the .bam
